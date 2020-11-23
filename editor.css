@@ -1,32 +1,69 @@
-body{
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 
+}
+
+body {
   background: linear-gradient(to right, #00aaff, #00ff6c);
 }
-.calculadora{
-    display:block;
-    margin:0 auto;
-    padding:20px;
-    background-color:#97b0c0;
-    width:350px;
-    height:550px;
-    
-  }
-  .calculadora td button{
-    display:block;
-    width:70px;
-    height: 70px;
-    font-size: 25px;
-    background-color: rgb(255, 255, 255);
-  }
-  #resultado{
-    display:block;
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 50px;
-    width:300px;
-    height: 100px;
-    line-height: 100px;
-    background-color:#fff;
-    border-radius: 25px;
-    overflow-y: scroll;
-  }
+
+h1 {
+  padding: 2em;
+  text-align: center;
+}
+
+.calculadora {
+  background-color: #1ab2ff;
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+  margin-top: 35px;
+  padding: 1em;
+
+}
+
+.teclas {
+  display: flex;
+  align-items: center;
+
+}
+
+.numeros {
+  margin-right: 8px;
+}
+
+.numeros button:hover {
+  box-shadow: 0px 0px 12px #aaa;
+}
+
+.calculadora td button {
+  display: block;
+  width: 70px;
+  height: 70px;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+#resultado {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  width: 450px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #fff;
+  border-radius: 25px;
+
+}
+
+.segundaParte {
+  display: flex;
+  justify-content: space-between;
+}
+
+.metodos button {
+  width: 150px;
+}
