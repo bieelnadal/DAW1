@@ -10,7 +10,7 @@ function init(){
     var division = document.getElementById('division');
     var igual = document.getElementById('igual');
     var elevarados = document.getElementById('elevarados');
-    var mod = document.getElementById('mod');
+    var mod = document.getElementById('masmenos');
     var uno = document.getElementById('uno');
     var dos = document.getElementById('dos');
     var tres = document.getElementById('tres');
@@ -87,7 +87,7 @@ elevarados.onclick = function(e){
 }
 mod.onclick = function(e){
     operandoa = resultado.textContent;
-    operacion = "mod"
+    operacion = "masmenos"
     resolver();
 }
 function limpiar(){
@@ -117,7 +117,7 @@ function resetear(){
       case "x2":
         res = parseFloat(operandoa) * parseFloat(operandoa);
         break;
-      case "mod":
+      case "masmenos":
         res = parseFloat(operandoa)*-1;
         break;
     }    
