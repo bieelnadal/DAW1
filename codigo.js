@@ -85,7 +85,7 @@ elevarados.onclick = function(e){
     operacion = "x2"
     resolver();
 }
-mod.onclick = function(e){
+masmenos.onclick = function(e){
     operandoa = resultado.textContent;
     operacion = "masmenos"
     resolver();
