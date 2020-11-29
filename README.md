@@ -6,7 +6,7 @@ _En este proyecto hemos desarrollado una calculadora funcional en la que puedes 
 _Para poder utilizar la calculadora unicamente necesitas juntar los tres archivos de la rama "Intento1" en una carpeta, és decir, coger los archivos llamados "calculadora.html , codigo.js , editor.css" y ponerlos dentro de una carpeta, entonces, necesitaras abrir la carpeta, tendras que darle con el "Click Derecho" a "calculadora.html", poner el puntero sobre "abrir con" y pulsar sobre el navegador que uses._
 ### Construido con 🛠️
 _Para crear esta calculadora se ha utilizado, html, javascript y css mediante VisualStudioCode
-###Autores ✒️
+### Autores ✒️
 _Esta calculadora ha sido desarrollada por:_ 
 * **Biel Nadal**
 * **Xavier Tomas**
